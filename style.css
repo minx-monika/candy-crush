@@ -1,0 +1,53 @@
+body {
+    background-image: url('https://images.alphacoders.com/900/900894.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 560px;
+    width: 560px;
+    background-color: rgba(109, 127, 151, 0.5);
+    padding: 5px;
+    color: #85796b;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+}
+
+.grid div {
+    height: 70px;
+    width: 70px;
+}
+
+.invisible {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+.scoreBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #3e3e3e; 
+    gap: 20px;
+    margin-top: -40px;
+}
